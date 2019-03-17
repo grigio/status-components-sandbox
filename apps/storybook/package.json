@@ -8,6 +8,12 @@
     "start:expo": "EXPO_DEBUG=true expo start --clear",
     "start": "yarn concurrently \"yarn start:webUI\" \"yarn start:expo\"",
     "prestart": "node scripts/linkWorkspaces.js",
+
+    "start:status-components": "yarn start",
+    "prestart:status-components": "yarn rnstl:status-components",
+    "rnstl:status-components": "rnstl --searchDir='../../packages/status-components/src'",
+
+
     "start:margarita-components": "yarn start",
     "prestart:margarita-components": "yarn rnstl:margarita-components",
     "rnstl:margarita-components": "rnstl --searchDir='../../packages/components/src'",

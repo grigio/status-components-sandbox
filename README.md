@@ -1,3 +1,13 @@
+
+# Status Components
+
+```
+yarn
+cd packages/status-components
+yarn storybook        # web
+yarn storybook:mobile # react-native via expo
+```
+
 <div align="center">
 <img src="./docs/assets/logo.png" alt="Margarita" title="Margarita" width="300"/>
 </div>
