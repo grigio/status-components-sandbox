@@ -1,12 +1,21 @@
 
 # Status Components
 
+Just work on your **React Native** / **React Native Web** on `packages/status-components`
+
+Usage:
+
 ```
 yarn
 cd packages/status-components
-yarn storybook        # web
-yarn storybook:mobile # react-native via expo
+yarn storybook        # web (react-native-web)
+yarn storybook:mobile # native (react-native via expo)
 ```
+
+**NOTES**
+
+1. Currently Storybook 5 do not play with React Native (Storybook 4 works)
+2. Kiwi/Margarita is a big boilerplate but it actually works, there are many parts and helpers that depend on each others.
 
 <div align="center">
 <img src="./docs/assets/logo.png" alt="Margarita" title="Margarita" width="300"/>
